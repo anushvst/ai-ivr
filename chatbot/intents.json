@@ -1,0 +1,193 @@
+{"intents": [
+
+    {"tag": "greeting",
+    "patterns": ["hello",
+                "hello, how are you",
+                "hello bot",
+                "hey, how are you"],
+
+    "responses": ["Hello, glad to see you back. Want to book a ride or update account details?"]
+    },
+
+    {"tag": "book_ride",
+    "patterns": ["i want to book a ride",
+                "book a ride",
+                "book my ride",
+                "yes book my ride",
+                "i would like to book my ride"],
+
+    "responses": ["Alright. Where do you want to go, at what time and from where should i pick you from?"]
+    },
+
+    {"tag": "account_details",
+    "patterns": ["update my account details",
+                "edit my account details"],
+
+    "responses": ["Do you want to edit phone number or account number?"]
+    },
+
+    {"tag": "phone_number",
+    "patterns": ["update my phone number",
+                "change my phone number"],
+
+    "responses": ["Phone number updated."]
+    },
+
+    {"tag": "account_number",
+    "patterns": ["update my account number",
+                "change my account number"],
+
+    "responses": ["Account number updated."]
+    },
+
+    {"tag": "drop_time_pickup",
+    "patterns": ["i want to go to disneyland, new york from 36th street fish park at 8 p.m.", 
+                "do you have a car available tonight from 625 front avenue Brooklyn to wild horse lane astoria",
+                "send me a car from ethal court to 69 morlee scal beverly at 8 a.m.",
+                "i need a car on every monday and friday at 9 am from nicklesburg road to sasev street and back at 3 o'clock in the night",
+                "i need taxi right now from mayfield hospital ivy to beacon street brooklyn",
+                "going from 4 oshwa museum to israel beach at 3 a.m.",
+                "i want to go to 34 lamp street diagnostic centre from 666 trump hotel, new jersey at 12:30 p.m.",
+                "i need a car from los santos to grove street at 6 o' clock in the morning",
+                "i would like to book a trip from 81 deerfield lane patch to 985 west street far rockaway at 10 tonight",
+                "i wanna schedule a car for tomorrow 10 in the evening from paradise hall to 8 chevron road",
+                "i want to go to new york from los angeles at 5 a.m.",
+                "i need taxi from 4 parker mall to acres road at 4 p.m. tomorrow",
+                "i wanna schedule a car for tomorrow at 6 in the night from oakland drive brooklyn to east road buffalo",
+                "send me a car from 45 new drive wakanda to water road east fierro at 4:45 p.m.",
+                "i need a car from big synagogue to the cemetery at 2 o' clock in the afternoon",
+                "i want to go to millenium school, new york from premium shopping complex at 8 am.",
+                "can I get a car from the shopping center to 23 satmer road right now",
+                "from 420 58th street going to 600 jefferson port at 9:15 a.m.",
+                "can I get a car from the washington square park to rockefeller center at 5 o' clock in the evening",
+                "i would like to book a trip from 12 garfield to scotland road at 6 p.m.",
+                "do you have a car available tonight from grand food to 3 daj Road",
+                "i need a car on every thursday at 5 pm from 72nd ave forest hills to southern state court",
+                "i want to go to new mexico center from florida right now",
+                "i want to go to silicon valley from indiana airport at 11 o' clock in the night",
+                "Can I get a car from the shopping center to 23 satmer dr right now",
+                "I need a car from big synagogue to the cemetery at 2 o' clock in the afternoon",
+                "I would like to book a trip from 12 Garfield to 5 Schunnemunk Rd at 6 p.m.",
+                "Do you have a car available from 3 daj Rd to grand food right now",
+                "Send me a car from 7 Eahal Court to 10 Mordche Scher Blvd 8 a.m. in the morning"],
+
+    "responses": ["Okay got your pickup, drop location and time. Confirm ride?"]
+    },
+
+    {"tag": "drop_location",
+    "patterns": ["drop me to bushwick",
+                "i want to go to disneyland, new york", 
+                "i need a car to sasev street",
+                "i need taxi to beacon street brooklyn",
+                "i want to go to israel beach at 3 a.m.",
+                "i want to go to 34 lamp street diagnostic centre",
+                "i want to go to grove street",
+                "i would like to book a trip to 985 west street far rockaway",
+                "i wanna book a car to 8 chevron road",
+                "i want to go to new york ",
+                "i need taxi to acres road",
+                "i need a car to the cemetery",
+                "i want to go to millenium school, new york",
+                "can I get a car to 23 satmer road",
+                "want to go 600 jefferson port at 9:15 a.m.",
+                "do you have a car available to 3 daj Road",
+                "i need a car on every thursday to southern state court",
+                "i want to go to new mexico center",
+                "i want to go to silicon valley at 11 o' clock in the night",
+                "Can I get a car to 23 satmer dr right now",
+                "I need a car to the cemetery at 2 o' clock in the afternoon",
+                "I would like to book a trip to 5 Schunnemunk Rd at 6 p.m.",
+                "Do you have a car available to grand food right now",
+                "Send me a car to 10 Mordche Scher Blvd 8 a.m. in the morning",
+                "I wanna schedule a car for tomorrow 10 in the morning to 8 Chevron rd",
+                "I need taxi now to 151 Acres Rd day after tomorrow 4 p.m.",
+                "going to 5 Israel Zupnick on this friday 3 a.m.",
+                "When can I have a car to 33 Dinev",
+                "I need a car every Monday and Friday 9 am to 6 Sasev Ct and back 3 o'clock in the afternoon"],
+
+    "responses": ["When do you want to go?"]
+    },
+
+    {"tag": "time",
+    "patterns": ["now",
+                  "right now",
+                  "tonight 4 p.m.",
+                  "every Thursday 5 pm",
+                  "tomorrow 6 in the morning",
+                  "2 o' clock in the evening",
+                  "at 9:45 p.m.",
+                  "5:30 a.m.",
+                  "3 p.m.",
+                  "9 a.m.",
+                  "11:30 p.m.",
+                  "at 3 p.m.",
+                  "every monday 8 a.m.",
+                  "this sunday at 3 p.m.",
+                  "at 5 o' clock in the morning"],
+
+    "responses": ["From where should i pick you?"]
+    },
+
+    {"tag": "pickup_location",
+    "patterns": ["i want to go from 36th street fish park at 8 p.m.", 
+              "my pickup location is mayfield hospital",
+              "from 4 oshwa museum",
+              "i want to go from los angeles",
+              "i need taxi from 4 parker mall to acres road at 4 p.m. tomorrow",
+              "can I get a car from the premium shopping complex",
+              "come pick me up from 66 moley hotel",
+              "come to 95 malibu club",
+              "pick me up from stanford university",
+              "pick me from kentucky",
+              "From 420 58TH Street going at 9 a.m.",
+              "When can I have a car from 1136 SHERMAN AVE BRONX",
+              "I need a car every Thursday 5 pm from 11040 72ND AVE FOREST HILLS",
+              "Can I get a car from the 437 43RD Street NEW YORK at 5 o' clock in the evening",
+              "I need a car from 1 SUNSET Lane MILLER PLACE at 7 p.m.",
+              "I would like to book a trip from 620 5TH Street at 10 p.m. in the night",
+              "Do you have a car available from 42 ELIZABETH Street NEW YORK tomorrow 8:30 in the morning",
+              "Send me a car from 217 110TH ST on this friday 4:50 p.m.",
+              "I wanna schedule a car for tomorrow 10 in the morning from 706 LEFFERTS AVE BROOKLYN",
+              "I need taxi now from 126 GRAHAM AVE BROOKLYN",
+              "From 513 LONG BEACH RD SAINT JAMES at 9 a.m.",
+              "When can I have a car from 1100 GOODE RD BALLSTON SPA",
+              "I need a car every Sunday 2 pm from 217 110TH ST NEW YORK"],
+
+      "responses": ["Should i confirm your ride?"]
+      },  
+
+    {"tag": "confirmation",
+    "patterns": ["yes",
+                "sure",
+                "of course",
+                "beautiful",
+                "perfect"],
+
+    "responses": ["Wonderful. Just booked your ride. Thank you :)"]
+    },
+
+    {"tag": "ride_cancellation",
+    "patterns": ["i want to cancel my ride",
+                "cancel my ride"],
+
+    "responses": ["Okay, cancelled your ride."]
+    },
+
+    {"tag": "goodbye",
+    "patterns": ["bye",
+                "goodbye",
+                "i'm leaving"],
+
+    "responses": ["Sorry to see you go. Have a nice day."]
+    },
+
+    {"tag": "incorrect",
+    "patterns": ["No",
+                "No, don't book this ride",
+              "No, thats incorrect"],
+
+    "responses": ["Oops, then where should i drop you to?"]
+    }
+
+  ]
+  }

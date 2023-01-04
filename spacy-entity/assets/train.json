@@ -1,0 +1,353 @@
+[
+["I need a car to brooklyn at 2 o' clock in the afternoon\r",{"entities":[[16,24,"DROP_LOC"],[28,55,"TIME"]]}],
+["drop me to maspeth\r",{"entities":[[11,18,"DROP_LOC"]]}],
+["pick me from woodhaven\r",{"entities":[[13,22,"PICKUP_LOC"]]}],
+["pick me up from cortland\r",{"entities":[[16,24,"PICKUP_LOC"]]}],
+["From bayonne going at 9 a.m.\r",{"entities":[[5,12,"PICKUP_LOC"],[22,28,"TIME"]]}],
+["When can I have a car from fairview\r",{"entities":[[27,35,"PICKUP_LOC"]]}],
+["I need a car every Thursday 5 pm from edgewater\r",{"entities":[[13,32,"TIME"],[38,47,"PICKUP_LOC"]]}],
+["Can I get a car from harrison at 5 o' clock in the evening\r",{"entities":[[21,29,"PICKUP_LOC"],[33,58,"TIME"]]}],
+["I need a car from ridgefield at 7 p.m.\r",{"entities":[[18,28,"PICKUP_LOC"],[32,38,"TIME"]]}],
+["I would like to book a trip from boston at 10 p.m. in the night\r",{"entities":[[33,39,"PICKUP_LOC"],[43,63,"TIME"]]}],
+["Do you have a car available from washington tomorrow 8:30 in the morning\r",{"entities":[[33,43,"PICKUP_LOC"],[44,72,"TIME"]]}],
+["Send me a car from norfolk on this friday 4:50 p.m.\r",{"entities":[[19,26,"PICKUP_LOC"],[30,51,"TIME"]]}],
+["I wanna schedule a car for tomorrow 10 in the morning from chinatown\r",{"entities":[[27,53,"TIME"],[59,68,"PICKUP_LOC"]]}],
+["I need taxi now from soho\r",{"entities":[[21,25,"PICKUP_LOC"]]}],
+["From tribeca at 9 a.m.\r",{"entities":[[5,12,"PICKUP_LOC"],[16,22,"TIME"]]}],
+["When can I have a car from baltimore\r",{"entities":[[27,36,"PICKUP_LOC"]]}],
+["I need a car every Sunday 2 pm from bushwick",{"entities":[[13,30,"TIME"],[36,44,"PICKUP_LOC"]]}],
+
+["When can I have a car from 1100 GOODE RD BALLSTON SPA\r",{"entities":[[27,53,"PICKUP_LOC"]]}],
+
+["I need a car every Sunday 2 pm from 217 110TH ST NEW YORK to 300 CENTRAL AVE HARTSDALE\r",{"entities":[[13,30,"TIME"],[36,57,"PICKUP_LOC"],[61,86,"DROP_LOC"]]}],
+
+["Can I get a car from the 706 LEFFERTS AVE BROOKLYN to 891 LINDEN BLVD BROOKLYN at 3:25 a.m.\r",{"entities":[[21,50,"PICKUP_LOC"],[54,78,"DROP_LOC"],[82,91,"TIME"]]}],
+
+["I need a car from 35 94TH ST BROOKLYN to the 126 GRAHAM AVE BROOKLYN at 9:50 a.m.\r",{"entities":[[18,37,"PICKUP_LOC"],[41,68,"DROP_LOC"],[72,81,"TIME"]]}],
+
+["I would like to book a trip from 513 LONG BEACH RD SAINT JAMES to 99 WILDWOOD RD SAG HARBOR tomorrow 10 a.m.\r",{"entities":[[33,62,"PICKUP_LOC"],[66,91,"DROP_LOC"],[92,108,"TIME"]]}],
+
+["Do you have a car available from 600 LEXINGTON AVE NEW YORK to 1100 GOODE RD BALLSTON SPA at 1 p.m.\r",{"entities":[[33,59,"PICKUP_LOC"],[63,89,"DROP_LOC"],[93,99,"TIME"]]}],
+
+["Send me a car from 1187 ANDERSON AVE BRONX to 114 183RD ST BRONX at 7:30 p.m.\r",{"entities":[[19,42,"PICKUP_LOC"],[46,64,"DROP_LOC"],[68,77,"TIME"]]}],
+
+["send me a car from ethal court to 69 morlee scal beverly at 8 a.m.\r",{"entities":[[19,30,"PICKUP_LOC"],[34,56,"DROP_LOC"],[60,66,"TIME"]]}],
+
+["i need a car on every thursday at 5 pm from 72nd ave forest hills to southern state court",{"entities":[[16,38,"TIME"],[44,65,"PICKUP_LOC"],[69,89,"DROP_LOC"]]}],
+
+["i want to go to dallas from florida right now",{"entities":[[16,22,"DROP_LOC"],[28,35,"PICKUP_LOC"],[36,45,"TIME"]]}],
+
+["Can I get a car from the shopping center to 23 satmer dr right now\r",{"entities":[[21,40,"PICKUP_LOC"],[44,56,"DROP_LOC"],[57,66,"TIME"]]}],
+
+["I need a car from big synagogue to the cemetery at 2 o' clock in the afternoon\r",{"entities":[[18,31,"PICKUP_LOC"],[35,47,"DROP_LOC"],[51,78,"TIME"]]}],
+
+["I would like to book a trip from 12 Garfield to 5 Schunnemunk Rd at 6 p.m.\r",{"entities":[[33,44,"PICKUP_LOC"],[48,64,"DROP_LOC"],[68,74,"TIME"]]}],
+
+["Do you have a car available from 3 daj Rd to grand food right now\r",{"entities":[[33,41,"PICKUP_LOC"],[45,55,"DROP_LOC"],[56,65,"TIME"]]}],
+
+
+["I would like to book a trip to manhattan at 6 p.m.\r",{"entities":[[31,40,"DROP_LOC"],[44,50,"TIME"]]}],
+["Do you have a car available to world trade center right now\r",{"entities":[[31,49,"DROP_LOC"],[50,59,"TIME"]]}],
+["Send me a car to wall street 8 a.m. in the morning\r",{"entities":[[17,28,"DROP_LOC"],[29,50,"TIME"]]}],
+["I wanna schedule a car for tomorrow 10 in the morning to buffalo\r",{"entities":[[27,53,"TIME"],[57,64,"DROP_LOC"]]}],
+["I need taxi now to rochester day after tomorrow 4 p.m.\r",{"entities":[[19,28,"DROP_LOC"],[29,54,"TIME"]]}],
+["going to albany on this friday 3 a.m.\r",{"entities":[[9,15,"DROP_LOC"],[19,37,"TIME"]]}],
+["When can I have a car to binghampton\r",{"entities":[[25,36,"DROP_LOC"]]}],
+
+["i want to go to disneyland, new york from 36th street fish park at 8 p.m.\r",{"entities":[[16,36,"DROP_LOC"],[42,63,"PICKUP_LOC"],[67,73,"TIME"]]}],
+
+["I wanna schedule a car for tomorrow 10 in the morning from Paradise Hall to 8 Chevron rd\r",{"entities":[[27,53,"TIME"],[59,72,"PICKUP_LOC"],[76,88,"DROP_LOC"]]}],
+
+["I need taxi now from 4 Paksh Pl to 151 Acres Rd day after tomorrow 4 p.m.\r",{"entities":[[21,31,"PICKUP_LOC"],[35,47,"DROP_LOC"],[48,73,"TIME"]]}],
+
+["From 4 orshava Ct going to 5 Israel Zupnick on this friday 3 a.m.\r",{"entities":[[5,17,"PICKUP_LOC"],[27,43,"DROP_LOC"],[47,65,"TIME"]]}],
+
+["When can I have a car from 33 Dinev\r",{"entities":[[27,35,"PICKUP_LOC"]]}],
+
+["I need a car every Monday and Friday 9 am from 1 Nicklesburg Rd to 6 Sasev Ct and back 3 o'clock in the afternoon\r",{"entities":[[13,41,"TIME"],[47,63,"PICKUP_LOC"],[67,77,"DROP_LOC"],[82,113,"TIME"]]}],
+
+["Can I get a car from the Washington Square Park to Rockefeller Center 5 o' clock in the evening\r",{"entities":[[21,47,"PICKUP_LOC"],[51,69,"DROP_LOC"],[70,95,"TIME"]]}],
+
+["I need a car from 30 Myrtle Lane Brooklyn to the 153 S. Purple Finch Avenue Fresh Meadows at 7 p.m.\r",{"entities":[[18,41,"PICKUP_LOC"],[45,89,"DROP_LOC"],[93,99,"TIME"]]}],
+
+["I need a car every Monday and Friday 9 am to newburgh and back 3 o'clock in the afternoon             \r",{"entities":[[13,41,"TIME"],[45,53,"DROP_LOC"],[58,89,"TIME"]]}],
+["i want to go from huntington at 8 p.m.\r",{"entities":[[18,28,"DROP_LOC"],[32,38,"TIME"]]}],
+["my pickup location is batavia\r",{"entities":[[22,29,"PICKUP_LOC"]]}],
+["from oshwa\r",{"entities":[[5,10,"PICKUP_LOC"]]}],
+["i want to go from farmingdale\r",{"entities":[[18,29,"PICKUP_LOC"]]}],
+["i need taxi from cooperstown at 4 p.m. tomorrow\r",{"entities":[[17,28,"PICKUP_LOC"],[32,47,"TIME"]]}],
+["can I get a car from utica\r",{"entities":[[21,26,"PICKUP_LOC"]]}],
+["come pick me up from utah\r",{"entities":[[21,25,"PICKUP_LOC"]]}],
+["come to plattsburgh\r",{"entities":[[8,19,"PICKUP_LOC"]]}],
+
+["Send me a car from 7 Eahal Court to 10 Mordche Scher Blvd 8 a.m. in the morning\r",{"entities":[[19,32,"PICKUP_LOC"],[36,57,"DROP_LOC"],[58,79,"TIME"]]}],
+
+["I wanna schedule a car for tomorrow 4 in the morning from 6927 76TH ST MIDDLE VILLAGE to 2 VALLEYWOOD DR HUNTINGTON STATION\r",{"entities":[[27,52,"TIME"],[58,85,"PICKUP_LOC"],[89,123,"DROP_LOC"]]}],
+
+["I need taxi now from 2428 BROOKSHIRE DR SCHENECTADY to 500 CLINTON ST COWLESVILLE\r",{"entities":[[12,15,"TIME"],[21,51,"PICKUP_LOC"],[55,81,"DROP_LOC"]]}],
+
+["From 600 FULTON AVE HEMPSTEAD to 1 TOMS POINT LN PORT WASHINGTON at 1:30 a.m.\r",{"entities":[[5,29,"PICKUP_LOC"],[33,64,"DROP_LOC"],[68,77,"TIME"]]}],
+
+["When can I have a car from 101 DOROTHY ST ENDICOTT\r",{"entities":[[27,50,"PICKUP_LOC"]]}],
+
+["I would like to book a trip from 81 Deerfield Lane Patchogue to 985 West Amerige Street Far Rockaway at 10 p.m. in the night\r",{"entities":[[33,60,"PICKUP_LOC"],[64,100,"DROP_LOC"],[104,124,"TIME"]]}],
+
+["Do you have a car available from 625 Front Ave. Brooklyn to 7079 Wild Horse Lane Astoria tomorrow 8:30 in the morning\r",{"entities":[[33,56,"PICKUP_LOC"],[60,88,"DROP_LOC"],[89,117,"TIME"]]}],
+
+["Send me a car from 28 New Drive Tonawanda to 6 Water Road East Elmhurst on this friday 4:50 p.m.\r",{"entities":[[19,41,"PICKUP_LOC"],[45,71,"DROP_LOC"],[75,96,"TIME"]]}],
+
+["I wanna schedule a car for tomorrow 6 in the morning from 7013 Oakland Dr. Brooklyn to 8861 East Road Buffalo\r",{"entities":[[27,52,"TIME"],[58,83,"PICKUP_LOC"],[87,109,"DROP_LOC"]]}],
+
+["I need taxi now from 7003 Mayfield Lane Bronx to 8413 Beacon Street Brooklyn\r",{"entities":[[12,15,"TIME"],[21,45,"PICKUP_LOC"],[49,76,"DROP_LOC"]]}],
+
+["From 420 58TH Street going to 600 BICYCLE PATH PORT JEFFERSON STATION at 9 a.m.\r",{"entities":[[5,20,"PICKUP_LOC"],[30,69,"DROP_LOC"],[73,79,"TIME"]]}],
+
+["When can I have a car from 1136 SHERMAN AVE BRONX\r",{"entities":[[27,49,"PICKUP_LOC"]]}],
+
+["I need a car every Thursday 5 pm from 11040 72ND AVE FOREST HILLS to 1937 SOUTHERN BLVD BRONX\r",{"entities":[[13,32,"TIME"],[38,65,"PICKUP_LOC"],[69,93,"DROP_LOC"]]}],
+
+["Can I get a car from the 437 43RD Street NEW YORK to 1673 18TH Street BROOKLYN 5 o' clock in the evening\r",{"entities":[[21,49,"PICKUP_LOC"],[53,78,"DROP_LOC"],[79,104,"TIME"]]}],
+
+["I need a car from 1 SUNSET Lane MILLER PLACE to the 2366 WEBSTER AVE BRONX at 7 p.m.\r",{"entities":[[18,44,"PICKUP_LOC"],[48,74,"DROP_LOC"],[78,84,"TIME"]]}],
+
+["I would like to book a trip from 620 5TH Street to 1133 BROADWAY at 10 p.m. in the night\r",{"entities":[[33,47,"PICKUP_LOC"],[51,64,"DROP_LOC"],[68,88,"TIME"]]}],
+
+["Do you have a car available from 42 ELIZABETH Street NEW YORK to 7079 Wild Horse Lane Astoria tomorrow 8:30 in the morning\r",{"entities":[[33,61,"PICKUP_LOC"],[65,93,"DROP_LOC"],[94,122,"TIME"]]}],
+
+["Send me a car from 217 110TH ST to 300 CENTRAL AVE HARTSDALE on this friday 4:50 p.m.\r",{"entities":[[19,31,"PICKUP_LOC"],[35,60,"DROP_LOC"],[64,85,"TIME"]]}],
+
+["I wanna schedule a car for tomorrow 10 in the morning from 706 LEFFERTS AVE BROOKLYN to 891 LINDEN BLVD BROOKLYN\r",{"entities":[[27,53,"TIME"],[59,84,"PICKUP_LOC"],[88,112,"DROP_LOC"]]}],
+
+["I need taxi now from 126 GRAHAM AVE BROOKLYN to 35 94TH ST BROOKLYN\r",{"entities":[[12,15,"TIME"],[21,44,"PICKUP_LOC"],[48,67,"DROP_LOC"]]}],
+
+["From 513 LONG BEACH RD SAINT JAMES to 99 WILDWOOD RD SAG HARBOR at 9 a.m.\r",{"entities":[[5,34,"PICKUP_LOC"],[38,63,"DROP_LOC"],[67,73,"TIME"]]}],
+
+["I need a car every Wednesday 12 pm from 2428 BROOKSHIRE DR SCHENECTADY to 301 HUDSON AVE FREEPORT and back 11 o'clock in the night\r",{"entities":[[13,34,"TIME"],[40,70,"PICKUP_LOC"],[74,97,"DROP_LOC"],[102,130,"TIME"]]}],
+
+["I would like to book a trip from 2049 SEAGIRT BLVD FAR ROCKAWAY to 10 QUEENS DR SCHENECTADY tomorrow 8 p.m.\r",{"entities":[[33,63,"PICKUP_LOC"],[67,91,"DROP_LOC"],[92,107,"TIME"]]}],
+
+["i want to go to israel at 3 a.m.\r",{"entities":[[16,22,"DROP_LOC"],[26,32,"TIME"]]}],
+["i want to go to monaco\r",{"entities":[[16,22,"DROP_LOC"]]}],
+["i want to go to grove street\r",{"entities":[[16,28,"DROP_LOC"]]}],
+["i would like to book a trip to baghdad\r",{"entities":[[31,38,"DROP_LOC"]]}],
+["i wanna book a car to istanbul\r",{"entities":[[22,30,"DROP_LOC"]]}],
+["i want to go to ankara\r",{"entities":[[16,22,"DROP_LOC"]]}],
+["i need taxi to ohio\r",{"entities":[[15,19,"DROP_LOC"]]}],
+["i need a car to arizona\r",{"entities":[[16,23,"DROP_LOC"]]}],
+["i want to go to area 51\r",{"entities":[[16,23,"DROP_LOC"]]}],
+
+["Do you have a car available from 52 WINDING TRL CHESTER to 209 BABBITT RD BEDFORD HILLS at 6 a.m.\r",{"entities":[[33,55,"PICKUP_LOC"],[59,87,"DROP_LOC"],[91,97,"TIME"]]}],
+
+["Send me a car from 2541 160TH ST FLUSHING to 1150 FRONT ST UNIONDALE at 5:30 a.m.\r",{"entities":[[19,41,"PICKUP_LOC"],[45,68,"DROP_LOC"],[72,81,"TIME"]]}],
+
+["I wanna schedule a car for tomorrow 9:30 in the evening from 260 LITTLE NECK RD CENTERPORT to 201 WASHBURN DR EAST SYRACUSE\r",{"entities":[[27,55,"TIME"],[61,90,"PICKUP_LOC"],[94,123,"DROP_LOC"]]}],
+
+["I need taxi now from 230 76TH ST NEW YORK to 239 44TH ST NEW YORK\r",{"entities":[[12,15,"TIME"],[21,41,"PICKUP_LOC"],[45,65,"DROP_LOC"]]}],
+
+["From 1 BENNETT AVE NEW YORK to 55 MOSHOLU PKWY BRONX at 7:45 p.m.\r",{"entities":[[5,27,"PICKUP_LOC"],[31,52,"DROP_LOC"],[56,65,"TIME"]]}],
+
+["When can I have a car from 1 CAUSEWAY PARK CARMEL\r",{"entities":[[27,49,"PICKUP_LOC"]]}],
+
+["I need a car every Tuesday 5 pm from 117 GEORGIA AVE BROOKLYN to 1701 79TH ST BROOKLYN and back 11:45 o'clock in the night\r",{"entities":[[13,31,"TIME"],[37,61,"PICKUP_LOC"],[65,86,"DROP_LOC"],[91,122,"TIME"]]}],
+
+["Can I get a car from 101 PEACH LAKE RD BREWSTER to 204 SAINT NICHOLAS AVE NEW YORK at 5:15 p.m.\r",{"entities":[[21,47,"PICKUP_LOC"],[51,82,"DROP_LOC"],[86,95,"TIME"]]}],
+
+["I need a car from 278 HEYWARD ST BROOKLYN to the 520 WHITE PLAINS RD TARRYTOWN at 4:20 p.m.\r",{"entities":[[18,41,"PICKUP_LOC"],[45,78,"DROP_LOC"],[82,91,"TIME"]]}],
+
+["I would like to book a trip from 419-23 ATLANTIC AVE EAST ROCKAWAY to 2 REXLEIGH RD CAMBRIDGE tomorrow 3 p.m.\r",{"entities":[[33,66,"PICKUP_LOC"],[70,93,"DROP_LOC"],[94,109,"TIME"]]}],
+
+["Do you have a car available from 107 MAIN ST CANASTOTA to 100 KIDD CASTLE WAY WEBSTER at 7 p.m.\r",{"entities":[[33,54,"PICKUP_LOC"],[58,85,"DROP_LOC"],[89,95,"TIME"]]}],
+
+["Send me a car from 432 SUYDAM ST BROOKLYN to 521 VAN DUZER ST STATEN ISLAND at 6:45 a.m.\r",{"entities":[[19,41,"PICKUP_LOC"],[45,75,"DROP_LOC"],[79,88,"TIME"]]}],
+
+["Can I get a car from 52 3RD ST WATERFORD to 5955 SENTINEL RD LAKE PLACID at 7:25 a.m.\r",{"entities":[[21,40,"PICKUP_LOC"],[44,72,"DROP_LOC"],[76,85,"TIME"]]}],
+
+["I need a car from 351 21ST ST BROOKLYN to the 2 KARNELL ST SPRING VALLEY at 5:50 a.m.\r",{"entities":[[18,38,"PICKUP_LOC"],[42,72,"DROP_LOC"],[76,85,"TIME"]]}],
+
+["I would like to book a trip from 5216 94TH ST ELMHURST to 2 BERGEN WOODS DR COHOES tomorrow 1 a.m.\r",{"entities":[[33,54,"PICKUP_LOC"],[58,82,"DROP_LOC"],[83,98,"TIME"]]}],
+
+["I wanna schedule a car for tomorrow 7:30 in the morning from 9240 QUEENS BLVD REGO PARK to 7 NORTHERN BLVD GREENVALE\r",{"entities":[[27,55,"TIME"],[61,87,"PICKUP_LOC"],[91,116,"DROP_LOC"]]}],
+
+["I need taxi now from 2 MILL DAM RD EAST BERNE to 31 JAY ST GLENS FALLS\r",{"entities":[[12,15,"TIME"],[21,45,"PICKUP_LOC"],[49,70,"DROP_LOC"]]}],
+
+["From 36 MORTON ST NEW YORK to 5800 STATE ROUTE 79 CHENANGO FORKS at 4:30 p.m.\r",{"entities":[[5,26,"PICKUP_LOC"],[30,64,"DROP_LOC"],[68,77,"TIME"]]}],
+
+["When can I have a car from 500 FASHION AVE NEW YORK\r",{"entities":[[27,51,"PICKUP_LOC"]]}],
+
+["I need a car every Monday 5 pm from 3420 30TH ST ASTORIA to 237 BROADWAY YONKERS\r",{"entities":[[13,30,"TIME"],[36,56,"PICKUP_LOC"],[60,80,"DROP_LOC"]]}],
+
+["Can I get a car from 3500 MAHLON BROWER DR OCEANSIDE to 4225 65TH PL WOODSIDE at 8:25 a.m.\r",{"entities":[[21,52,"PICKUP_LOC"],[56,77,"DROP_LOC"],[81,90,"TIME"]]}],
+
+["I need a car from PO BOX 220299 GREAT NECK to the 2601 ELLIS CREEK RD BARTON at 4:50 p.m.\r",{"entities":[[18,42,"PICKUP_LOC"],[46,76,"DROP_LOC"],[80,89,"TIME"]]}],
+
+["i need a car on every monday and friday at 9 am from nicklesburg road to sasev street and back at 3 o'clock in the night\r",{"entities":[[16,47,"TIME"],[53,69,"PICKUP_LOC"],[73,85,"DROP_LOC"],[90,120,"TIME"]]}],
+
+["i want to go to chicago from missisippi right now",{"entities":[[16,23,"DROP_LOC"],[29,39,"PICKUP_LOC"],[40,49,"TIME"]]}],
+
+["i need taxi right now from mayfield hospital ivy to beacon street brooklyn\r",{"entities":[[12,21,"TIME"],[27,48,"PICKUP_LOC"],[52,74,"DROP_LOC"]]}],
+
+["going from 4 oshwa museum to israel beach at 3 a.m.\r",{"entities":[[11,25,"PICKUP_LOC"],[29,41,"DROP_LOC"],[45,51,"TIME"]]}],
+
+["i want to go to 34 lamp street diagnostic centre from 666 trump hotel, new jersey at 12:30 p.m.\r",{"entities":[[16,48,"DROP_LOC"],[54,81,"PICKUP_LOC"],[85,95,"TIME"]]}],
+
+["i need a car from los santos to grove street at 6 o' clock in the morning\r",{"entities":[[18,28,"PICKUP_LOC"],[32,44,"DROP_LOC"],[48,73,"TIME"]]}],
+
+["i want to go from arizona park to space museum at 5 o' clock in the evening\r",{"entities":[[18,30,"PICKUP_LOC"],[34,46,"DROP_LOC"],[50,75,"TIME"]]}],
+
+["i would like to book a trip from 81 deerfield lane patch to 985 west street far rockaway at 10 tonight\r",{"entities":[[33,56,"PICKUP_LOC"],[60,88,"DROP_LOC"],[92,102,"TIME"]]}],
+
+["i want to go to london from ohio at 10 in the night",{"entities":[[16,22,"DROP_LOC"],[28,32,"PICKUP_LOC"],[36,51,"TIME"]]}],
+    
+["i wanna schedule a car for tomorrow 10 in the evening from paradise hall to 8 chevron road\r",{"entities":[[27,53,"TIME"],[59,72,"PICKUP_LOC"],[76,90,"DROP_LOC"]]}],
+
+["i want to go to new york from los angeles at 5 a.m.\r",{"entities":[[16,24,"DROP_LOC"],[30,41,"PICKUP_LOC"],[45,51,"TIME"]]}],
+
+["i need taxi from 4 parker mall to acres road at 4 p.m. tomorrow\r",{"entities":[[17,30,"PICKUP_LOC"],[34,44,"DROP_LOC"],[48,63,"TIME"]]}],
+
+["i want to go to krusty crabs from pizza parlor dallas at 3 a.m.\r",{"entities":[[16,28,"DROP_LOC"],[34,53,"PICKUP_LOC"],[57,63,"TIME"]]}],
+
+["i wanna schedule a car for tomorrow at 6 in the night from oakland drive brooklyn to east road buffalo\r",{"entities":[[27,53,"TIME"],[59,81,"PICKUP_LOC"],[85,102,"DROP_LOC"]]}],
+
+["i want to go to baker's street from new york stock exchange at 12:00 noon",{"entities":[[16,30,"DROP_LOC"],[36,59,"PICKUP_LOC"],[63,73,"TIME"]]}],
+
+["send me a car from 45 new drive wakanda to water road east fierro at 4:45 p.m.\r",{"entities":[[19,39,"PICKUP_LOC"],[43,65,"DROP_LOC"],[69,78,"TIME"]]}],
+
+["i want to go to silicon valley from indiana airport at 11 o' clock in the night",{"entities":[[16,30,"DROP_LOC"],[36,51,"PICKUP_LOC"],[55,79,"TIME"]]}],
+
+["i need a car from big synagogue to the cemetery at 2 o' clock in the afternoon\r",{"entities":[[18,31,"PICKUP_LOC"],[35,47,"DROP_LOC"],[51,78,"TIME"]]}],
+
+["i want to go to sanandreas from southampton at 8 a.m.",{"entities":[[16,26,"DROP_LOC"],[32,43,"PICKUP_LOC"],[47,53,"TIME"]]}],
+
+["i want to go from jefferson motel grove street to comlex supermarket north carolina at 2 o' clock in the afternoon\r",{"entities":[[18,46,"PICKUP_LOC"],[50,83,"DROP_LOC"],[87,114,"TIME"]]}],
+    
+["from 420 58th street going to 600 jefferson port at 9:15 a.m.\r",{"entities":[[5,20,"PICKUP_LOC"],[30,48,"DROP_LOC"],[52,61,"TIME"]]}],
+
+["can I get a car from the washington square park to rockefeller center at 5 o' clock in the evening\r",{"entities":[[21,47,"PICKUP_LOC"],[51,69,"DROP_LOC"],[73,98,"TIME"]]}],
+
+["i want to go to arizona from ontario at 9 in the morning",{"entities":[[16,23,"DROP_LOC"],[29,36,"PICKUP_LOC"],[40,56,"TIME"]]}],
+
+["i would like to book a trip from 12 garfield to scotland road at 6 p.m.\r",{"entities":[[33,44,"PICKUP_LOC"],[48,61,"DROP_LOC"],[65,71,"TIME"]]}],
+
+["i want to go to wall street from 74 golden gate bridge right now",{"entities":[[16,27,"DROP_LOC"],[33,54,"PICKUP_LOC"],[55,64,"TIME"]]}],
+
+["I would like to book a trip from 57 AVENUE D FARMINGVILLE to 6268 JERICHO TPKE COMMACK tomorrow 6 p.m.\r",{"entities":[[33,57,"PICKUP_LOC"],[61,86,"DROP_LOC"],[87,102,"TIME"]]}],
+
+["Do you have a car available from 8501 114TH ST RICHMOND HILL to 3001 ALDRICH LN LAUREL at 4 a.m.\r",{"entities":[[33,60,"PICKUP_LOC"],[64,86,"DROP_LOC"],[90,96,"TIME"]]}],
+
+["Send me a car from 377 OAK ST GARDEN CITY to 14900 114TH PL SOUTH OZONE PARK at 7:30 p.m.\r",{"entities":[[19,41,"PICKUP_LOC"],[45,76,"DROP_LOC"],[80,89,"TIME"]]}],
+
+["From 4 ontario going to brampton on this friday 3 a.m.\r",
+{"entities":[[5,14,"PICKUP_LOC"],[24,32,"DROP_LOC"],[36,54,"TIME"]]}],
+
+["When can I have a car from toronto\r",{"entities":[[27,34,"PICKUP_LOC"]]}],
+
+["I need a car every Monday and Friday 9 am from delhi to mumbai and back 3 o'clock in the afternoon\r",
+{"entities":[[13,41,"TIME"],[47,52,"PICKUP_LOC"],[56,62,"DROP_LOC"],[67,98,"TIME"]]}],
+
+["do you have a car available at 10 tonight from 625 front avenue Brooklyn to wild horse lane astoria\r",
+{"entities":[[31,41,"TIME"],[47,72,"PICKUP_LOC"],[76,99,"DROP_LOC"]]}],
+
+["do you have a car available tonight at 11:30 from grand food to 3 daj Road\r",
+{"entities":[[28,44,"TIME"],[50,60,"PICKUP_LOC"],[64,74,"DROP_LOC"]]}],
+
+["I wanna schedule a car for tomorrow 12:45 in the afternoon from 269 LOCUST AVE BABYLON to 1901 GRAY WILMURT RD COLD BROOK\r",{"entities":[[27,58,"TIME"],[64,86,"PICKUP_LOC"],[90,121,"DROP_LOC"]]}],
+
+["I need taxi now from 377 OAK ST GARDEN CITY to 600 KING HILL RD NEWARK VALLEY\r",{"entities":[[12,15,"TIME"],[21,43,"PICKUP_LOC"],[47,77,"DROP_LOC"]]}],
+
+["From 1443 28TH AVE ASTORIA to 180 HARTSDALE AVE HARTSDALE at 10:15 p.m.\r",{"entities":[[5,26,"PICKUP_LOC"],[30,57,"DROP_LOC"],[61,71,"TIME"]]}],
+
+["When can I have a car from 1 JOHN ST SMITHTOWN\r",{"entities":[[27,46,"PICKUP_LOC"]]}],
+
+["I need a car every Monday 6 am from 620 STATE ROUTE 40 MELROSE to 2900 US HIGHWAY 20 NASSAU and back 10:30 a.m.\r",{"entities":[[13,30,"TIME"],[36,62,"PICKUP_LOC"],[66,91,"DROP_LOC"],[96,111,"TIME"]]}],
+
+["Can I get a car from PO BOX 121 SAVANNAH to 550G GRAND ST NEW YORK at 5:05 p.m.\r",{"entities":[[21,40,"PICKUP_LOC"],[44,66,"DROP_LOC"],[70,79,"TIME"]]}],
+
+["I need a car from 351 21ST ST BROOKLYN to the 200 HORTON HWY MINEOLA at 1:20 a.m.\r",{"entities":[[18,38,"PICKUP_LOC"],[42,68,"DROP_LOC"],[72,81,"TIME"]]}],
+
+["I would like to book a trip from 901 HARRISON DR CENTERPORT to 2 BERGEN WOODS DR COHOES tomorrow 2:40 p.m.\r",{"entities":[[33,59,"PICKUP_LOC"],[63,87,"DROP_LOC"],[88,106,"TIME"]]}],
+
+["Do you have a car available from 90 HAPEMAN RD ELIZAVILLE to 4200 FOX LN POUGHKEEPSIE at 7 a.m.\r",{"entities":[[33,57,"PICKUP_LOC"],[61,85,"DROP_LOC"],[89,95,"TIME"]]}],
+
+["Send me a car from 1 BARCLAY ST POTSDAM to 24 RAY PL SCARSDALE at 3:30 p.m.\r",{"entities":[[19,39,"PICKUP_LOC"],[43,62,"DROP_LOC"],[66,75,"TIME"]]}],
+
+["I wanna schedule a car for tomorrow 6 in the morning from 1052 MAMARONECK AVE WHITE PLAINS to 1 MAIN ST WARWICK\r",{"entities":[[27,52,"TIME"],[58,90,"PICKUP_LOC"],[94,111,"DROP_LOC"]]}],
+
+["I need taxi now from 3073 WHITEHAVEN RD GRAND ISLAND to 100 WILLOW LN ELBRIDGE\r",{"entities":[[12,15,"TIME"],[21,52,"PICKUP_LOC"],[56,78,"DROP_LOC"]]}],
+
+["From 201 217 MOTT RD FAYETTEVILLE to 421 MONTGOMERY ST SYRACUSE at 8:15 p.m.\r",{"entities":[[5,33,"PICKUP_LOC"],[37,63,"DROP_LOC"],[67,76,"TIME"]]}],
+
+["When can I have a car from 368 WELLWOOD AVE LINDENHURST\r",{"entities":[[27,55,"PICKUP_LOC"]]}],
+
+["Do you have a car available from 90 HAPEMAN RD ELIZAVILLE to 114 SOUTHWOODS CT SCHENECTADY at 9 p.m.\r",{"entities":[[33,57,"PICKUP_LOC"],[61,90,"DROP_LOC"],[94,100,"TIME"]]}],
+
+["Send me a car from 158 BUTLER AVE STATEN ISLAND to 24 RAY PL SCARSDALE at 9:30 p.m.\r",{"entities":[[19,47,"PICKUP_LOC"],[51,70,"DROP_LOC"],[74,83,"TIME"]]}],
+
+["I wanna schedule a car for tomorrow 8 in the morning from 1052 MAMARONECK AVE WHITE PLAINS to 1 MAIN ST WARWICK\r",{"entities":[[27,52,"TIME"],[58,90,"PICKUP_LOC"],[94,111,"DROP_LOC"]]}],
+
+["I need taxi now from 3073 WHITEHAVEN RD GRAND ISLAND to 600 KING HILL RD NEWARK VALLEY\r",{"entities":[[12,15,"TIME"],[21,52,"PICKUP_LOC"],[56,86,"DROP_LOC"]]}],
+
+["From 201 LEWIS LN WALLKILL to 421 MONTGOMERY ST SYRACUSE at 2:30 a.m.\r",{"entities":[[5,26,"PICKUP_LOC"],[30,56,"DROP_LOC"],[60,69,"TIME"]]}],
+
+["When can I have a car from 368 WELLWOOD AVE LINDENHURST\r",{"entities":[[27,55,"PICKUP_LOC"]]}],
+
+["I need a car every Monday 7 am from 2 ST PAULS AVE STATEN ISLAND to 150 58TH ST NEW YORK and back 6:30 o'clock in the evening\r",{"entities":[[13,30,"TIME"],[36,64,"PICKUP_LOC"],[68,88,"DROP_LOC"],[93,125,"TIME"]]}],
+
+["Can I get a car from 100 LANE CREST AVE NEW ROCHELLE to 13001 180TH ST JAMAICA at 9:25 p.m.\r",{"entities":[[21,52,"PICKUP_LOC"],[56,78,"DROP_LOC"],[82,91,"TIME"]]}],
+
+["I need a car from 179 ATLANTIC AVE FREEPORT to the 1641 3RD AVE NEW YORK at 4:50 a.m.\r",{"entities":[[18,43,"PICKUP_LOC"],[47,72,"DROP_LOC"],[76,85,"TIME"]]}],
+
+["Can I get a car from california to texas right now\r",
+{"entities":[[21,31,"PICKUP_LOC"],[35,40,"DROP_LOC"],[41,50,"TIME"]]}],
+
+["I need a car from tokyo to hokaido at 2 o' clock in the afternoon\r",
+{"entities":[[18,23,"PICKUP_LOC"],[27,34,"DROP_LOC"],[38,65,"TIME"]]}],
+
+["I would like to book a trip from pentagon to washington at 6 p.m.\r",
+{"entities":[[33,41,"PICKUP_LOC"],[45,55,"DROP_LOC"],[59,65,"TIME"]]}],
+
+["Do you have a car available from alabama to new jersey right now\r",
+{"entities":[[33,40,"PICKUP_LOC"],[44,54,"DROP_LOC"],[55,64,"TIME"]]}],
+
+
+["I need a car every Monday 8 pm from 5201 TERRI LN NORTH TONAWANDA to 150 58TH ST NEW YORK and back 11:00 o'clock in the evening\r",{"entities":[[13,30,"TIME"],[36,65,"PICKUP_LOC"],[69,89,"DROP_LOC"],[94,127,"TIME"]]}],
+
+["Can I get a car from 17036 CEDARCROFT RD JAMAICA to 280 BRONXVILLE RD BRONXVILLE at 9:45 a.m.\r",{"entities":[[21,48,"PICKUP_LOC"],[52,80,"DROP_LOC"],[84,93,"TIME"]]}],
+
+["I need a car from 28 MOUNT MISERY RD HUNTINGTON to the 20 LYNCREST ST VALLEY STREAM at 12:00 a.m.\r",{"entities":[[18,47,"PICKUP_LOC"],[51,83,"DROP_LOC"],[87,97,"TIME"]]}],
+
+["I would like to book a trip from 2 DYER CIR SARATOGA SPRINGS to 6115A SCOTCH PINE DR WATERTOWN tomorrow 5 a.m.\r",{"entities":[[33,60,"PICKUP_LOC"],[64,94,"DROP_LOC"],[95,110,"TIME"]]}],
+
+["Do you have a car available from 20101 DEROUIN DR SACKETS HARBOR to 114 SOUTHWOODS CT SCHENECTADY at 11:20 p.m.\r",{"entities":[[33,64,"PICKUP_LOC"],[68,97,"DROP_LOC"],[101,111,"TIME"]]}],
+
+["Send me a car from 158 BUTLER AVE STATEN ISLAND to 1 MOHICAN AVE RONKONKOMA at 9:10 a.m.\r",{"entities":[[19,47,"PICKUP_LOC"],[51,75,"DROP_LOC"],[79,88,"TIME"]]}],
+
+["I wanna schedule a car for tomorrow 6 in the evening from 101 ANTHONY ST HILLSDALE to 1 MAIN ST WARWICK\r",{"entities":[[27,52,"TIME"],[58,82,"PICKUP_LOC"],[86,103,"DROP_LOC"]]}],
+
+["I need taxi now from 75 BEAVER ST COOPERSTOWN to 1581 KINGDOM RD BALDWINSVILLE\r",{"entities":[[12,15,"TIME"],[21,45,"PICKUP_LOC"],[49,78,"DROP_LOC"]]}],
+
+["From 10 MAIN ST CUBA NY 14727-1497 USA to 2 MAIDEN LN PENN YAN at 12:30 p.m.\r",{"entities":[[5,38,"PICKUP_LOC"],[42,62,"DROP_LOC"],[66,76,"TIME"]]}],
+
+["When can I have a car from PO BOX 455 RIDGE\r",{"entities":[[27,43,"PICKUP_LOC"]]}],
+
+["I need a car every Monday 4 am from 767 MAIN ST COBLESKILL to PO BOX 3801 SCHENECTADY and back 2:30 p.m.",{"entities":[[13,30,"TIME"],[36,58,"PICKUP_LOC"],[62,85,"DROP_LOC"],[90,104,"TIME"]]}],
+
+["Send me a car from los angeles to sanandreas 8 a.m. in the morning\r",
+{"entities":[[19,30,"PICKUP_LOC"],[34,44,"DROP_LOC"],[45,66,"TIME"]]}],
+
+["I wanna schedule a car for tomorrow 10 in the morning from vice city to florida\r",
+{"entities":[[27,53,"TIME"],[59,68,"PICKUP_LOC"],[72,79,"DROP_LOC"]]}],
+
+["I need taxi now from southampton to london day after tomorrow 4 p.m.\r",
+{"entities":[[21,32,"PICKUP_LOC"],[36,42,"DROP_LOC"],[43,46,"TIME"]]}],
+
+["i want to go to dubai\r",{"entities":[[16,21,"DROP_LOC"]]}],
+["i need a car to paris\r",{"entities":[[16,21,"DROP_LOC"]]}],
+["i need taxi to naples\r",{"entities":[[15,21,"DROP_LOC"]]}],
+["can I get a car to missisippi\r",{"entities":[[19,29,"DROP_LOC"]]}],
+["want to go dakota at 9:15 a.m.\r",{"entities":[[11,17,"DROP_LOC"],[21,30,"TIME"]]}],
+["do you have a car available to vancouver\r",{"entities":[[31,40,"DROP_LOC"]]}],
+["i need a car on every thursday to montreal\r",{"entities":[[34,42,"DROP_LOC"]]}],
+["i want to go to central park\r",{"entities":[[16,28,"DROP_LOC"]]}],
+["i want to go to empire state building at 11 o' clock in the night\r",{"entities":[[16,37,"DROP_LOC"],[41,65,"TIME"]]}],
+["Can I get a car to broadway right now\r",{"entities":[[19,27,"DROP_LOC"],[28,37,"TIME"]]}]
+]
