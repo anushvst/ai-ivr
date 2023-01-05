@@ -1,6 +1,6 @@
 import numpy as np
 import streamlit as st
-import os.path, time, datetime, random, json, pickle, spacy, nltk, pyttsx3, os, wave, shutil
+import os.path, time, datetime, random, json, pickle, spacy, nltk, pyttsx3, os, shutil
 import speech_recognition as sr
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
