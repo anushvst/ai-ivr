@@ -210,22 +210,22 @@ def chatbot(file_name):
         if use_tag=="drop_time_pickup" or use_tag=="drop_location" or use_tag=="time" or \
             use_tag=="pickup_location":
             dic=spacy_entity(speech_text, dic)
-        if (use_tag=="drop_location" and dic["DROP_LOC"]==None):
+        elif (use_tag=="drop_location" and dic["DROP_LOC"]==None):
             logtxt+='Sorry didn\'t got your drop location. Try again\n'
             logtxtbox.text_area("CHATBOT", logtxt, height=300)
             speak_text('Sorry didn\'t got your drop location. Try again')
             continue
-        if (use_tag=="time" and dic["TIME"]==None):
+        elif (use_tag=="time" and dic["TIME"]==None):
             logtxt+='Sorry at what time?\n'
             logtxtbox.text_area("CHATBOT", logtxt, height=300)
             speak_text('Sorry at what time?')
             continue
-        if (use_tag=="pickup_location" and dic["PICKUP_LOC"]==None):
+        elif (use_tag=="pickup_location" and dic["PICKUP_LOC"]==None):
             logtxt+='Sorry didn\'t got your pickup location. Try again\n'
             logtxtbox.text_area("CHATBOT", logtxt, height=300)
             speak_text('Sorry didn\'t got your pickup location. Try again')
             continue
-        if ((use_tag=="drop_time_pickup") and (dic["PICKUP_LOC"]==None or dic["DROP_LOC"]==None or \
+        elif ((use_tag=="drop_time_pickup") and (dic["PICKUP_LOC"]==None or dic["DROP_LOC"]==None or \
             dic["TIME"]==None)):
             if dic["DROP_LOC"]==None:
                 logtxt+='Sorry didn\'t got your drop location. Try again\n'
@@ -240,7 +240,7 @@ def chatbot(file_name):
                 logtxtbox.text_area("CHATBOT", logtxt, height=300)
                 speak_text('Sorry didn\'t got your pickup location. Try again')
             continue
-        if ((use_tag=="time" or use_tag=="pickup_location" or use_tag=="drop_time_pickup") and \
+        elif ((use_tag=="time" or use_tag=="pickup_location" or use_tag=="drop_time_pickup") and \
             (dic["DROP_LOC"]!=None and dic["TIME"]!=None and dic["PICKUP_LOC"]!=None)):
             resp='You want to go to '+dic["DROP_LOC"]+' at '+dic["TIME"]+' from '+dic["PICKUP_LOC"]+\
                 '. Should i confirm your ride?'
@@ -251,7 +251,7 @@ def chatbot(file_name):
             logtxt+='Where should i drop you to?\n'
             logtxtbox.text_area("CHATBOT", logtxt, height=300)
             speak_text('Whats the drop location?')
-        if (use_tag=="confirmation" and (dic["DROP_LOC"]==None or dic["PICKUP_LOC"]==None or dic["TIME"]==None)):
+        elif (use_tag=="confirmation" and (dic["DROP_LOC"]==None or dic["PICKUP_LOC"]==None or dic["TIME"]==None)):
             logtxt+='Please try again.\n'
             logtxtbox.text_area("CHATBOT", logtxt, height=300)
             speak_text('Please try again.')
