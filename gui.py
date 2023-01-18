@@ -210,7 +210,7 @@ def chatbot(file_name):
         if use_tag=="drop_time_pickup" or use_tag=="drop_location" or use_tag=="time" or \
             use_tag=="pickup_location":
             dic=spacy_entity(speech_text, dic)
-        elif (use_tag=="drop_location" and dic["DROP_LOC"]==None):
+        if (use_tag=="drop_location" and dic["DROP_LOC"]==None):
             logtxt+='Sorry didn\'t got your drop location. Try again\n'
             logtxtbox.text_area("CHATBOT", logtxt, height=300)
             speak_text('Sorry didn\'t got your drop location. Try again')
